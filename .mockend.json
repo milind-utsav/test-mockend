@@ -1,12 +1,12 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
+  "Widget groups": {
+    "id": "string",
+    "name": "string",
     "published": "boolean",
     "createdAt": "date",
-    "comments": "Comment[]"
+    "widgets": "Widget[]"
   },
-  "Comment": {
+  "Widget": {
     "body": "string",
     "post": "Post"
   }
