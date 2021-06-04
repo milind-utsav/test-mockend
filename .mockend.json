@@ -1,13 +1,16 @@
 {
-  "Widget groups": {
+  "Widget": {
     "id": "string",
     "name": "string",
     "published": "boolean",
     "createdAt": "date",
-    "widgets": "Widget[]"
+    "widgets": "Column[]"
   },
-  "Widget": {
+  "Column": {
     "body": "string",
-    "post": "Post"
+    "post": "Detail"
+  },
+  "Detail": {
+    "id": "string"
   }
 }
